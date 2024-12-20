@@ -6,7 +6,7 @@
 
 ### **Header 1?**
 
-### **5. Results**
+### **Results**
 
 #### Performance Analysis and Comparison
 | Process | Software (ms) | Software & Hardware (ms) |
@@ -37,3 +37,12 @@ Both algorithms yielded similar results in terms of validation accuracy and opti
 
 ![](https://drive.google.com/uc?export=view&id=1Cjlo3SGME3P5yjPDprHke-jzr2NHt0e7)
 ![](https://drive.google.com/uc?export=view&id=1ARqAK6BGt5a8UXNFg7D1u9MmPtk3HrDC)
+
+### **Conclusion**
+
+This project successfully demonstrates the design, implementation, and optimization of a hardware-accelerated SVM classifier for real-time image processing using FPGA technology. By leveraging the inherent parallelism and pipelining capabilities of FPGAs, the classifier achieved significant performance improvements over traditional software-based implementations. Key outcomes include:  
+1. **Performance Gains**: The proposed FPGA-based classifier reduced the execution time of the classification task from 712 seconds (software-only) to 75.34 milliseconds, representing a dramatic enhancement in processing speed. This improvement highlights the effectiveness of using FPGAs for computationally intensive machine learning tasks.  
+
+2. **Optimized FPGA Implementation**: The modular architecture, featuring components such as Vector Calculation, Exponent Calculation, and Taylor Series Approximation, was meticulously optimized using techniques like loop unrolling and dataflow pipelining. These optimizations enabled parallel computations and minimized latency, ensuring high throughput and real-time processing at 60 frames per second.  
+
+3. **Real-World Viability**: The classifier was validated on the Zynq ZedBoard FPGA, demonstrating its capability to process high-resolution images (1360 x 800) efficiently. The integration of software and hardware processing workflows ensured seamless data preparation and classification, making the system practical for real-world applications.
