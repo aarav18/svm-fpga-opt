@@ -44,7 +44,7 @@ The FPGA implementation consists of the following modules:
 - Increases throughput by overlapping computation stages.
 
 #### **Block Design of HLS Implementation**
-![](https://drive.google.com/uc?export=view&id=1_NyTXkRn23srNMRY7j6vMctmTVP9mWTL)
+![](https://drive.google.com/uc?export=view&id=1RDy8Do_y8mIsJ_qbF3MYRyvhJK-N-e4q)
 
 #### **SVM Classification Flow**
 ![](https://drive.google.com/uc?export=view&id=1rYako8n5uguoYOm4wjb_Vqc9-qh3SkBp)
