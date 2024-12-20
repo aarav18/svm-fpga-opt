@@ -1,8 +1,4 @@
----
-
-## **Optimizing SVMs on FPGAs for High-Performance Edge Detection**
-
----
+# **Optimizing SVMs on FPGAs for High-Performance Edge Detection**
 
 ### **Project Statement**
 
@@ -26,8 +22,6 @@ The SVM is trained using the BSDS500 dataset. Images are first converted to gray
 - The SVM is trained on a small sample of the dataset, and then optimized first using Simmulated Annealing, and then with Particle Swarm Optimization. Hyperparameters C and γ are fine-tuned.
 - Once final hyperparameters are determined, the final model is trained on the final full dataset and is then ready for FPGA implementation
 
-#### FPGA Implementation
-
 #### FPGA HLS Implementation
 - **Development Tool:** Xilinx Vivado, Xilinx Vitis.  
 - **Translation Process:** Adapt the optimized C++ Sobel and Box Blur algorithms for FPGA using HLS pragmas.  
@@ -50,10 +44,10 @@ The FPGA implementation consists of the following modules:
 - Increases throughput by overlapping computation stages.
 
 #### **Block Design of HLS Implementation**
-![](https://drive.google.com/file/d/1_NyTXkRn23srNMRY7j6vMctmTVP9mWTL/view?usp=sharing)
+![](https://drive.google.com/uc?export=view&id=1_NyTXkRn23srNMRY7j6vMctmTVP9mWTL)
 
 #### **SVM Classification Flow**
-![](https://drive.google.com/file/d/1rYako8n5uguoYOm4wjb_Vqc9-qh3SkBp/view?usp=sharing)
+![](https://drive.google.com/uc?export=view&id=1rYako8n5uguoYOm4wjb_Vqc9-qh3SkBp)
 
 ### **Results**
 
