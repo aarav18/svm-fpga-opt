@@ -10,6 +10,9 @@
 
 #### Performance Analysis and Comparison
 
+| Process | Software (ms) | Software & Hardware (ms) |
+| ------- | ------------- | ------------------------ |
+| Data Input | 524.44 | 524.44 | 
 
 \begin{array}{|l|c|c|}
 \hline
