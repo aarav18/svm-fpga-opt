@@ -12,25 +12,13 @@
 
 | Process | Software (ms) | Software & Hardware (ms) |
 | ------- | ------------- | ------------------------ |
-| Data Input | 524.44 | 524.44 | 
-
-\begin{array}{|l|c|c|}
-\hline
-\textbf{Process} & \textbf{SW (ms)} & \textbf{SW + HW (ms)} \\
-\hline
-\text{Data Input} & 524.44 & 524.44 \\
-\text{Segmentation} & 6141.55 & 6141.55 \\
-\text{HOG} & 896.14 & 896.14 \\
-\text{Mapping} & 75.16 & 75.16 \\
-\textbf{Classification} & 712,000 & 75.34\ (\text{HW part}) \\
-\text{Output} & 41.21 & 41.21 \\
-\hline
-\textbf{Total} & \text{719,678.5} & \text{7,753.84} \\
-\hline
-\end{array}
-
-
-
+| Data Input | 524.44 | 524.44 |
+| Segmentation | 6,141.55 | 6,141.55 |
+| HOG | 896.14 | 896.14 |
+| Mapping | 75.16 | 75.16 |
+| **Classification** | 712,000 | 75.34 |
+| Output | 41.21 | 41.21 |
+| **Total** | 719,678.5 | 7,753.84 |
 
 **Table 1**: **Execution Time Analysis**  
 The following table compares the execution time of the classification algorithm when performed solely in software versus when utilizing the proposed hardware accelerator. When using software alone, the classification process required **712,000 ms (712 seconds)**. In contrast, the hardware accelerator reduced the execution time to **75.34 ms**.
